@@ -1,0 +1,198 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SAVE                BITMAP  DISCARDABLE     "save.bmp"
+IDB_CAPTURE             BITMAP  DISCARDABLE     "capture.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bmp00001.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "bitmap2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "bitmap3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "bitmap4.bmp"
+IDB_TRANS               BITMAP  DISCARDABLE     "bitmap5.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "bmp00002.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "pen_r.cur"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "cursor2.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 359, 252
+STYLE DS_3DLOOK | DS_CENTER | DS_CENTERMOUSE | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+CLASS "CapureScreen"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Capturer",IDOK,251,13,50,14
+    PUSHBUTTON      "Quitter",IDCANCEL,302,13,50,14
+    CTEXT           "00:00:00",IDC_TIME,255,0,37,8,SS_CENTERIMAGE
+    LTEXT           "0",IDC_DATE,32,0,196,8
+    LTEXT           "Résolution: 0x0",ID_RESOLUTION,32,9,102,15
+    CONTROL         "",ID_PREVIEW,"Static",SS_ETCHEDFRAME | WS_GROUP,7,31,
+                    345,217,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Charger",IDC_BUTTON1,142,13,50,14
+    PUSHBUTTON      "DynaWindow",IDC_BUTTON2,193,13,57,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "00000177.ICO"
+IDI_ICON2               ICON    DISCARDABLE     "SOSPC.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "_popupmenu_"
+    BEGIN
+        MENUITEM "Quitter",                     IDCANCEL, MENUBARBREAK
+        MENUITEM SEPARATOR
+    END
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,5,2115,155
+ PRODUCTVERSION 3,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0c04b0"
+        BEGIN
+            VALUE "Comments", "CapureScreen\0"
+            VALUE "CompanyName", "SOSPC\0"
+            VALUE "FileDescription", "ColorDLG\0"
+            VALUE "FileVersion", "3, 5, 2115, 155\0"
+            VALUE "InternalName", "CapureScreen\0"
+            VALUE "LegalCopyright", "Copyright © Patrice Waehter-Ebling 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CapureScreen\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SOSPC.Démo.CapureScreen\0"
+            VALUE "ProductVersion", "3, 5, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        BOTTOMMARGIN, 248
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
