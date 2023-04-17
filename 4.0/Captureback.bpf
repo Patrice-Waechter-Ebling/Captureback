@@ -1,0 +1,5 @@
+USEUNIT(".\CaptureBack.cpp");
+USERC(".\CaptureBack.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

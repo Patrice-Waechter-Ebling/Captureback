@@ -1,0 +1,16 @@
+NAME          CaptureBack               
+DESCRIPTION   "Capture d'ecran"
+HEAPSIZE      1024      
+STACKSIZE     5120     
+EXPORTS
+		CreateMyTooltip
+		ActiveToolTips
+		DisplayContextMenu
+		OnContextMenu
+		CommunFichiers
+		SauverFichier
+		CreateBitmapInfoStruct
+		CreateBMPFile
+		CaptureEcran
+		SysMenu
+		errhandler
